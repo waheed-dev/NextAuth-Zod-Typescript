@@ -5,7 +5,7 @@ import {NextPageContext} from "next";
 
 export default function Home() {
   const {data : session} = useSession()
-  console.log(session)
+
     if(session) {
         return <>
             <div className={'text-red-600 text-4xl bg-yellow-300'}>  Signed in as {session.user?.name} <br/></div>
