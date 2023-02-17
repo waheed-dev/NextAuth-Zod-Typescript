@@ -11,5 +11,4 @@ export default function handler(
   res: NextApiResponse<Data>
 ) {
   connectDb()
-  res.status(200).json('hello')
 }
