@@ -8,7 +8,7 @@ export default function Home() {
 
     if(session) {
         return <>
-            <div className={'text-red-600 text-4xl bg-yellow-300'}>  Signed in as {session.user?.name} <br/></div>
+            <div className={'text-red-600 text-4xl bg-green-300'}>  Signed in as {session.user?.name} <br/></div>
 
             <img className={'w-32 h-32 rounded-full'} src={session.user?.image!} alt="user image"/>
             <button onClick={() => signOut()}>Sign out</button>
