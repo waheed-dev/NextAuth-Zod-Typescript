@@ -17,7 +17,7 @@ export default function Home() {
   return (
       <>
 
-        <div className={'text-teal-600 text-2xl bg-red-300'}>welcome</div>
+        <div className={'text-teal-600 text-6xl bg-red-300'}>welcome</div>
         Not signed in <br/>
         <button onClick={() => signIn()}>Sign in</button>
       </>
